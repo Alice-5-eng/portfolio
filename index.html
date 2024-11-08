@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>AliceFake`s Portfolio</title>
+
+  <style>
+    /*стили всех div*/
+    body {
+      font-family: sans-serif;
+      background-color: #242424;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .p2{
+      height: 20px;
+      width:1000px auto;
+      position: relative;
+      margin-top: 0px;
+      padding: 10px;
+      background-color: purple;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      border-radius: 10px;
+      text-align: left;
+    }
+    
+    .container {
+      width: 600px;
+      height: 320px;
+      margin: 100px auto;
+      margin-top: 30px;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      position: relative auto;
+      border: 1px solid rgb(30, 0, 197);
+      overflow: hidden;
+      background-image: url('https://media.istockphoto.com/id/1390631668/ru/%D1%84%D0%BE%D1%82%D0%BE/%D1%81%D0%BE%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%B0%D0%B1%D1%81%D1%82%D1%80%D0%B0%D0%BA%D1%82%D0%BD%D1%8B%D0%B9-%D1%84%D0%B8%D0%BE%D0%BB%D0%B5%D1%82%D0%BE%D0%B2%D1%8B%D0%B9-%D1%84%D0%BE%D0%BD.jpg?s=612x612&w=0&k=20&c=EwvK_yrzfqngajiujxcMAEfsvXo1kb3m_jeMVFV2LdY=');
+      background-position: center;
+      background-size: cover;
+      border-radius: 40px;
+    }
+
+    .pr {
+      height: 170px;
+      width:1400px auto;
+      position: relative;
+      background-color:#000000;
+      margin-top: 50px;
+      padding: 10px;
+      margin-bottom: auto;
+      box-shadow: 0 0 100px rgba(0,10,0,0.1);
+      overflow: hidden;
+      border: 3px solid  rgb(95, 95, 95);
+      background-position: center;
+      background-image: url('https://ybis.ru/wp-content/uploads/2023/09/garri-potter-griffindor-1.webp');
+      background-size: cover;
+      border-radius: 10px;
+    }
+
+    .pap{
+      height: 800px ;
+      width: 1200px auto;
+      background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvcHgxMDU3NDA0LWltYWdlLWpvYjYzMC1pLWwwZzA3MG13LmpwZw.jpg');
+    }
+
+    .vsnv {
+      width: 400px;
+      height: 300px;
+      margin-top: 50px;
+      margin-left: 100;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border: 1px solid rgb(30, 0, 197);
+      overflow: hidden;
+      background-image: url("https://img.freepik.com/premium-photo/wizarding-world-harry-potter-background-ai-generated-art_882313-4247.jpg");
+      float: left;
+      text-align: center;
+    }
+
+    .image{
+      width: 700px;
+      height: 300px;
+      margin-top: 50px;
+      margin-left: 50px;
+      margin-right: 100px;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border: 1px solid rgb(0, 0, 0);
+      overflow: hidden;
+      background-image: url('https://pbs.twimg.com/media/Dyt_0qRWwAAnG34.jpg:large');
+      float: right;
+      background-size: cover;
+      text-align: center;
+    }
+
+    .prr {
+      height: 170px;
+      width:1200px auto;
+      position: relative;
+      background-color:#000000;
+      padding: 10px;
+      margin-bottom: auto;
+      overflow: hidden;
+      border: 3px solid  rgb(95, 95, 95);
+      background-position: center;
+      background-image: url('https://kartinki.pics/pics/uploads/posts/2022-08/thumbs/1660095401_2-kartinkin-net-p-telegram-fon-krasivo-2.jpg');
+      background-size: cover;
+      border-radius: 10px;
+    }
+
+    .bot {
+      height: 600px ;
+      width: 1400px auto;
+      background-image: url('https://kartinki.pics/pics/uploads/posts/2022-08/1661299230_17-kartinkin-net-p-temnie-foni-dlya-telegramma-krasivo-18.jpg') ;
+    }
+
+    .image2{
+      width: 400px;
+      height: 400px;
+      margin-top: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border: 1px solid rgb(0, 0, 0);
+      overflow: hidden;
+      background-image: url('https://avatars.mds.yandex.net/get-shedevrum/12154803/ab5fd68bb6a211ee8365fe19746b188b/orig');
+      float: right;
+      background-size: cover;
+      text-align: center;
+    }
+
+    .des{
+      width: 400px;
+      height: 300px;
+      margin-top: 50px;
+      margin-left: auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border: 1px solid rgb(30, 0, 197);
+      overflow: hidden;
+      background-color: aquamarine;
+      float: left;
+      text-align: center;
+    }
+
+    #sm{
+      height: 20px;
+      width:1000px auto;
+      position: relative;
+      margin-top: 0px;
+      padding: 10px;
+      background-color: purple;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: centre;
+      border-radius: 10px;
+      text-align: left;
+    }
+    /*Стили заголовков и текста*/
+    .og {
+      color:darkgoldenrod;
+      font-style: italic;
+      text-align: left;
+      position: relative;
+      margin-right: 400px;
+    }
+
+    h1 {
+      color: #ebebeb;
+      text-align: center;
+      background-color: #013494; 
+    }
+
+    p {
+      color: rgb(241, 238, 19);
+      text-align: center;
+      font-family: "Gill Sans", sans-sherif ;
+      font-style: italic;
+      font-weight: 900;
+    }
+
+    i {
+      color: rgb(241, 238, 19);
+      text-align: left;
+      font-family: "Gill Sans", sans-sherif ;
+      font-style: italic;
+      font-weight: 600;
+    }
+    i2 {
+      color: rgb(241, 238, 19);
+      text-align: left;
+      font-family: "Gill Sans", sans-sherif ;
+      font-style: bold;
+    }
+    i3 {
+      color: rgb(241, 238, 19);
+      text-align: left;
+      font-family: "Gill Sans", sans-sherif ;
+      font-style: italic;
+      font-weight: 600;
+    }
+    i4{
+      color: rgb(241, 238, 19);
+      text-align: left;
+      font-family: "Gill Sans", sans-sherif ;
+      font-style: bold;
+    }
+    h2 {
+      color: #ebebeb;
+      text-align: center;
+      background-color: #013494;
+    }
+    
+    i5 {
+      color: rgb(255, 3, 3);
+      -webkit-text-stroke-width: 0.5px;
+      -webkit-text-stroke-color: black;
+      text-align: centre;
+      font-family: "Gill Sans", sans-sherif ;
+      font-style: bold;
+      font-weight: 700;
+      
+    }
+
+    #tgbot{
+      color: #ebebeb;
+      text-align: center;
+      background-color: #013494;
+      border-radius: 20px;
+    }
+
+    #destg{
+      color: #013494;
+      text-align: centre;
+      font-family: "Gill Sans", sans-sherif ;
+      font-style: bold;
+      font-weight: 700;
+    }
+
+    /*стили кнопок*/
+
+    .image-button {
+      width: 110px;
+      height: 35px;
+      border: none;
+      background-image: url('https://web.tlgrm.app/icon-192x192.png');
+      background-size: cover;
+      position: auto;
+    }
+    
+    #download{
+      font-family: 'Franklin Gothic Medium';
+      background-color: #00cbda;
+      color: rgb(255, 0, 0);
+      padding: 10px 20px;
+      border: 10px black;
+      border-radius: 10px;
+      cursor: pointer; 
+    }
+
+    #git{
+      font-family: 'Franklin Gothic Medium';
+      background-color: #00cbda;
+      color: rgb(255, 0, 0);
+      padding: 10px 20px;
+      border: 10px black;
+      border-radius: 10px;
+      cursor: pointer; 
+    }
+  
+    button {
+      font-family: 'Franklin Gothic Medium';
+      background-color: #00cbda;
+      color: rgb(255, 0, 0);
+      padding: 10px 20px;
+      border: 10px black;
+      border-radius: 10px;
+      cursor: pointer; 
+      margin: auto;
+    }
+
+    #ds {
+      width: 110px;
+      height: 35px;
+      border: none;
+      background-image: url('https://freepngimg.com/save/64887-gmail-email-block-signature-png-file-hd/512x512');
+      background-size: cover;
+    }
+
+    #gmail{
+      background-image: url('https://freepngimg.com/save/64887-gmail-email-block-signature-png-file-hd/512x512');
+      width: 110px;
+      height: 35px;
+      border: none;
+      background-size: cover;
+    }
+  
+    #rand{
+      font-family: 'Franklin Gothic Medium';
+      background-color: #00cbda;
+      color: rgb(255, 0, 0);
+      padding: 10px 20px;
+      border: 10px black;
+      border-radius: 10px;
+      cursor: pointer; 
+    }
+    
+  </style>
+</head>
+<body>
+<!--Фиолетовый верхний блок с кнопками-->
+  <div class = 'p2'>
+    <i class="og">AliceFake</i>
+    <button id="iii"><a href = '#s'>About me</a></button>
+    <button id="ii"><a href = '#pt'>Visual Novel</a></button>
+    <button id="iiii"><a href = '#tgbot'>Telegram Bot</a></button>
+    <button id="i"><a href = '#sm'>Social Medias</a></button>
+  </div>
+  <!--Блок описание сайта-->
+  <div class="container">
+    <h1>Hello World!</h1>
+    <p id = 's'>This is site with my portfolio.</p>
+    <i>About me:</i>
+    <i2>Hello, my name is Aleksey and I am 14 years old. I am self-taught programmer. This site was created by me, and there you can see all my actual projects.<br></i2>
+    <i3><br>My projects:</i3>
+    <i4>Now I have three big projects. First is a big visual novel, which based on the moties of fanfic: Harry Potter and metods of racionality. Second is small telegram bot, which completely random based. And thid is my website, which is still only in the plans, and it will be associated with my Telegram channel, Lololowka and metods of racionality. </i4>
+  </div>
+  <!--Блок разделитель Хогвартс-->
+  <div class = 'pr'></div>
+  <!--Блок фон бумаги-->
+  <div class="pap">
+    <!--Описание новеллы-->
+    <div class = 'vsnv'>
+      <h2 id = 'pt'>Visual novel</h2>
+      <i5>Harry Potter and MRT, a novel entirely made by me, it is still in development. This is a very big project that I have been doing and am doing absolutely alone. All the code, drawings, music and the whole game is made by me. <br>You can always find the constantly up-to-date version of the novel in my telegram channel, in the pinned message, or see open source on github<br></i5>
+      <button id ='download'><a href = "https://t.me/lololoshechko">Telegram</a></button>
+      <button id="git"><a href = 'https://github.com/Alice-5-eng/HPaMRT'>GitHub</a></button>
+    </div>
+    <!--Изображение с книгами-->
+    <div class = "image"></div>
+  </div>
+
+  <!--Блок разделитель телеграм-->
+  <div class = 'prr'></div>
+  <!--Блок фон тг-->
+  <div class="bot">
+    <!--Изображение 20 гранника-->
+    <div class="image2"></div>
+    <!--Описание бота-->
+    <div class="des">
+      <h3 id = tgbot>Telegram Random Bot</h3>
+      <i id = 'destg'>Random bot - my small project the development of the basics of working with the random module. It was also created to make life easier for those people who do not have the funds to buy bone sets for D&D. Also, this bot can make random decisions with a yes/no answer, send you a random word from the list or select a number from 0 to 1000.<br></i>
+      <button id="rand"><a href="https://t.me/Reaaandombot">Random Bot</a></button>
+    </div>
+  </div>
+
+  <!--Фиолетовый блок с кнопками в конце-->
+  <div id="sm">
+    <i class = 'text'>Where you can find me:</i>
+    <button id="myButton" class="image-button"><a href="https://t.me/lololoshechko"> Telegram</a></button>
+    <button id = 'ds'><a href = 'https://discordapp.com/users/1227959929218797619/'>Discord</a></button>    
+    <button id = 'gmail' ><a href = 'mailto: alex16vas16@gmail.com'>GMail</a></button>
+    <button id = 'gitt'><a href='https://github.com/Alice-5-eng/HPaMRT'>GitHub</a></button>
+    <button id ='maybeButton' class="image-button"><a href='https://t.me/luntikinalune'>Girlfriend</a></button>
+    <button id ='kw' class="image-button"><a href='https://kwork.ru/user/AliceFake'>KWork</a></button>
+    <i>Have a nice day ;)</i>
+  </div>
+
+
+  <script>
+
+
+    //оптимизация изображений
+    const images = document.querySelectorAll('img');
+    images.forEach(image => {
+      image.setAttribute('loading', 'lazy');
+    });
+
+    //плавный скролл
+    const elements = document.querySelectorAll('.smooth-scroll');
+    elements.forEach(element => {
+      element.addEventListener('click', (event) => {
+        event.preventDefault();
+        const targetId = event.target.getAttribute('href');
+        const targetElement = document.querySelector(targetId);
+        targetElement.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+    window.scrollTo({
+      top: 1000, // установим скроллл  на величину 1000px
+      behavior: "smooth" // используем плавный скролл
+    });
+
+    //анимация кнопок
+    document.getElementById("kw").addEventListener("mouseover", function() {
+      this.style.backgroundColor = "#00575e";
+    });
+    document.getElementById("kw").addEventListener("mouseout", function() {
+      this.style.backgroundColor = "#00cbda";
+    });
+
+
+    document.getElementById("gitt").addEventListener("mouseover", function() {
+      this.style.backgroundColor = "#00575e";
+    });
+    document.getElementById("gitt").addEventListener("mouseout", function() {
+      this.style.backgroundColor = "#00cbda";
+    });
+
+
+    document.getElementById("rand").addEventListener("mouseover", function() {
+      this.style.backgroundColor = "#00575e";
+    });
+    document.getElementById("rand").addEventListener("mouseout", function() {
+      this.style.backgroundColor = "#00cbda";
+    });
+
+
+    document.getElementById("git").addEventListener("mouseover", function() {
+      this.style.backgroundColor = "#00575e";
+    });
+    document.getElementById("git").addEventListener("mouseout", function() {
+      this.style.backgroundColor = "#00cbda";
+    });
+
+
+    document.getElementById("ii").addEventListener("mouseover", function() {
+      this.style.backgroundColor = "#00575e";
+    });
+    document.getElementById("ii").addEventListener("mouseout", function() {
+      this.style.backgroundColor = "#00cbda";
+    });
+
+
+    document.getElementById("iii").addEventListener("mouseover", function() {
+      this.style.backgroundColor = "#00575e";
+    });
+    document.getElementById("iii").addEventListener("mouseout", function() {
+      this.style.backgroundColor = "#00cbda";
+    });
+
+
+    document.getElementById("i").addEventListener("mouseover", function() {
+      this.style.backgroundColor = "#00575e";
+    });
+    document.getElementById("i").addEventListener("mouseout", function() {
+      this.style.backgroundColor = "#00cbda";
+    });
+
+
+    document.getElementById("iiii").addEventListener("mouseover", function() {
+      this.style.backgroundColor = "#00575e";
+    });
+    document.getElementById("iiii").addEventListener("mouseout", function() {
+      this.style.backgroundColor = "#00cbda";
+    });
+
+
+    document.getElementById("download").addEventListener("mouseover", function() {
+      this.style.backgroundColor = "#00575e";
+    });
+    document.getElementById("download").addEventListener("mouseout", function() {
+      this.style.backgroundColor = "#00cbda";
+    });
+    
+
+    document.getElementById("ds").addEventListener("mouseover", function() {
+      this.style.backgroundColor = "#00575e";
+    });
+    document.getElementById("ds").addEventListener("mouseout", function() {
+      this.style.backgroundColor = "#00cbda";
+    });
+    
+
+    document.getElementById("myButton").addEventListener("mouseover", function() {
+      this.style.backgroundColor = "#00575e";
+    });
+    document.getElementById("myButton").addEventListener("mouseout", function() {
+      this.style.backgroundColor = "#00cbda";
+    });
+
+
+    document.getElementById("maybeButton").addEventListener("mouseover", function() {
+      this.style.backgroundColor = "#00575e";
+    });
+    document.getElementById("maybeButton").addEventListener("mouseout", function() {
+      this.style.backgroundColor = "#00cbda";
+    });
+
+
+    document.getElementById("gmail").addEventListener("mouseover", function() {
+      this.style.backgroundColor = "#00575e";
+    });
+    document.getElementById("gmail").addEventListener("mouseout", function() {
+      this.style.backgroundColor = "#00cbda";
+    });
+    
+
+  </script> 
+</body>
+</html>
